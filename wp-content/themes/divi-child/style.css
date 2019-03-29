@@ -1,0 +1,78 @@
+/*
+Theme Name:     Divi-child
+Theme URI:      
+Description:    Divi child theme.
+Author:         Me
+Author URI:     
+Template:       Divi
+Version:        0.1.0
+*/
+/* --------------------------- */
+/* Fonts */
+/* --------------------------- */
+@font-face {
+  font-family: BebasNeue;
+  src: url(/evolovemedia/wp-content/themes/divi-child/assets/fonts/BebasNeue-Regular.otf);
+  font-weight: normal; }
+
+@font-face {
+  font-family: BebasNeue;
+  src: url(/evolovemedia/wp-content/themes/divi-child/assets/fonts/BebasNeue-Bold.otf);
+  font-weight: bold; }
+
+/* --------------------------- */
+/*General Styles */
+/* --------------------------- */
+body {
+  background-color: #000; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: BebasNeue; }
+
+#main-content {
+  background-color: #000 !important; }
+
+.et_pb_section {
+  background-color: #000 !important; }
+
+.page-template-page-template-transparent-header #main-header {
+  background-color: transparent;
+  box-shadow: none; }
+
+/* Add Social Icons */
+.et-social-vimeo a:before {
+  content: '\e09c'; }
+
+.et-social-youtube a:before {
+  content: '\e0a3'; }
+
+/* Footer */
+.footer-social .et_pb_social_icon {
+  padding-left: 5px !important; }
+  .footer-social .et_pb_social_icon a.icon {
+    background-color: #000 !important;
+    border-radius: 7px !important; }
+  .footer-social .et_pb_social_icon:first-child {
+    padding-left: 0 !important; }
+  .footer-social .et_pb_social_icon:before {
+    display: none !important; }
+
+/* --------------------------- */
+/* Form Spree */
+/* --------------------------- */
+input[name="_gotcha"] {
+  display: none; }
+
+/* --------------------------- */
+/*Divi helper classes */
+/* --------------------------- */
+.et_pb_row.vertical-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.invert-columns {
+  display: flex;
+  direction: rtl; }
+
+/*# sourceMappingURL=style.map */
