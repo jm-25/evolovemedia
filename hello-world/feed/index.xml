@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
-	<atom:link href="/evolovemedia/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>/evolovemedia/hello-world/</link>
+	<atom:link href="/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>/hello-world/</link>
 	<description>Content to Inspire</description>
 	<lastBuildDate>
 	Wed, 27 Mar 2019 17:28:44 +0000	</lastBuildDate>
@@ -21,7 +21,7 @@
 			<item>
 				<title>
 				By: A WordPress Commenter				</title>
-				<link>/evolovemedia/hello-world/#comment-1</link>
+				<link>/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Wed, 27 Mar 2019 17:28:44 +0000</pubDate>
 		<guid isPermaLink="false">http://evolovemedia.test/?p=1#comment-1</guid>
