@@ -63,6 +63,15 @@ h1, h2, h3, h4, h5, h6 {
 input[name="_gotcha"] {
   display: none; }
 
+.submit_button {
+  text-align: right; }
+  .submit_button .et_pb_contact_submit {
+    color: #fff !important;
+    border-color: #fff !important; }
+    .submit_button .et_pb_contact_submit:hover {
+      background-color: #fff !important;
+      color: #000 !important; }
+
 /* --------------------------- */
 /*Divi helper classes */
 /* --------------------------- */
