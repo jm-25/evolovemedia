@@ -84,13 +84,15 @@ input[name="_gotcha"] {
 /* --------------------------- */
 /*Divi helper classes */
 /* --------------------------- */
-.et_pb_row.vertical-center {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap; }
+@media (min-width: 980px) {
+  .et_pb_row.vertical-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; } }
 
-.invert-columns {
-  display: flex;
-  direction: rtl; }
+@media (min-width: 980px) {
+  .invert-columns {
+    display: flex;
+    direction: rtl; } }
 
 /*# sourceMappingURL=style.map */
